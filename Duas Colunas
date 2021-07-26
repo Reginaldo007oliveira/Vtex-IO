@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#catalogo": {
+    "props": {
+      "blockClass": "departament-row"
+    },
+    "children": ["flex-layout.col#departamentsKoskinhas"]
+  },
+  "flex-layout.col#departamentsKoskinhas": {
+    "children": [
+      "rich-text#departamentKoskinhas",
+      "flex-layout.row#departaments-row-1koskinhas"
+    ]
+  },
+  "rich-text#departamentKoskinhas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compre por departamento",
+      "blockClass": "departament-title"
+    }
+  },
+  "flex-layout.row#departaments-row-1koskinhas": {
+    "children": [ "info-card#item-2", "info-card#item-3"]
+  },
+
+  "info-card#item-1koskinha": {
+    "props": {
+      "id": "info-card-departaments",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://atacadoweb.vteximg.com.br/arquivos/ids/176407/banner-home-2.jpg",
+      "callToActionText": "Alimentos e bebidas",
+      "callToActionUrl": "/marcas-alimento-e-bebidas",
+      "blockClass": "info-card-departaments",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#item-2koskinha": {
+    "props": {
+      "id": "info-card-departaments",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://atacadoweb.vteximg.com.br/arquivos/ids/176397/banner-home-3.jpg",
+      "callToActionText": "Baby & Kids",
+      "callToActionUrl": "/marcas-baby-e-kids",
+      "blockClass": "info-card-departaments",
+      "textAlignment": "center"
+    }
+  }
+}
+ 
+  
+ 
+  
