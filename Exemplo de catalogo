@@ -1,0 +1,159 @@
+{
+  "flex-layout.row#catalogo": {
+    "props": {
+      "blockClass": "catalogo-row-catalogo"
+    },
+    "children": ["flex-layout.col#catalogo"]
+  },
+  "flex-layout.col#catalogo": {
+    "children": [
+      "flex-layout.row#catalogo-title",
+      "flex-layout.row#catalogo-images",
+      "flex-layout.row#catalogo-images1",
+      "flex-layout.row#catalogo-images2",
+      "flex-layout.row#catalogo-images3",
+      "flex-layout.row#catalogo-images4",
+      "flex-layout.row#catalogo-images5",
+      "flex-layout.row#catalogo-images6",
+      "flex-layout.row#catalogo-images7"
+    ]
+  },
+  "flex-layout.row#catalogo-title": {
+    "children": ["rich-text#catalogo"]
+  },
+  "rich-text#catalogo": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Catalogos",
+      "blockClass": "departament-title"
+    }
+  },
+  "flex-layout.row#catalogo-images": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "borderWidth": 5,
+      "blockClass": " ssaass"
+    },
+    "children": ["image#0cat"]
+  },
+
+  "flex-layout.row#catalogo-images1": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "blockClass": " ssaass"
+    },
+    "children": ["image#1cat"]
+  },
+
+  "flex-layout.row#catalogo-images2": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "blockClass": " ssaass"
+    },
+    "children": ["image#2cat"]
+  },
+
+  "flex-layout.row#catalogo-images3": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "blockClass": " ssaass"
+    },
+    "children": ["image#3cat"]
+  },
+  "flex-layout.row#catalogo-images4": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "blockClass": "ssaass "
+    },
+    "children": ["image#4cat"]
+  },
+  "flex-layout.row#catalogo-images5": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "blockClass": "ssaass "
+    },
+    "children": ["image#5cat"]
+  },
+
+  "flex-layout.row#catalogo-images6": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "blockClass": " ssaass"
+    },
+    "children": ["image#6cat"]
+  },
+
+  "flex-layout.row#catalogo-images7": {
+    "props": {
+      "title": "catalogo Block",
+      "marginBottom": 3,
+      "blockClass": "ssaass "
+    },
+    "children": ["image#7cat"]
+  },
+
+  "image#0cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  },
+  "image#1cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas1.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  },
+  "image#2cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas2.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  },
+  "image#3cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas3.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  },
+  "image#4cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas4.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  },
+  "image#5cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas5.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  },
+  "image#6cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas6.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  },
+  "image#7cat": {
+    "props": {
+      "src": "/arquivos/catalogoKoskinhas7.jpg",
+      "maxHeight": 1790,
+      "blockClass": "ssaass "
+    }
+  }
+}
